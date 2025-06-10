@@ -1,7 +1,7 @@
 ## Appendix A. CSF Core
 This appendix describes the Functions, Categories, and Subcategories of the CSF Core. Table 1 lists the CSF 2.0 Core Function and Category names and unique alphabetic identifiers. Each Function name in the table is linked to its portion of the appendix. The order of Functions, Categories, and Subcategories of the Core is not alphabetical; it is intended to resonate most with those charged with operationalizing risk management within an organization.
 
-<fig.1>
+![CSF2.0コア機能及びカテゴリーの名称と識別子](Appendix_A_CSF2.0コア機能及びカテゴリーの名称と識別子.png)
 
 The CSF Core, Informative References, and Implementation Examples are available on the CSF 2.0 website and through the CSF 2.0 Reference Tool, which allows users to explore them and export them in human- and machine-readable formats. The CSF 2.0 Core is also available in a legacy format similar to that of CSF 1.1.
 
@@ -25,30 +25,30 @@ The CSF Core, Informative References, and Implementation Examples are available 
   - GV.RM-07: Strategic opportunities (i.e., positive risks) are characterized and are included in organizational cybersecurity risk discussions
 
 - **Roles, Responsibilities, and Authorities (GV.RR)**: Cybersecurity roles, responsibilities, and authorities to foster accountability, performance assessment, and continuous improvement are established and communicated 
-  - V.RR-01: Organizational leadership is responsible and accountable for cybersecurity risk and fosters a culture that is risk-aware, ethical, and continually improving 
-  - V.RR-02: Roles, responsibilities, and authorities related to cybersecurity risk management are established, communicated, understood, and enforced 
-  - V.RR-03: Adequate resources are allocated commensurate with the cybersecurity risk strategy, roles, responsibilities, and policies 
-  - V.RR-04: Cybersecurity is included in human resources practices
+  - GV.RR-01: Organizational leadership is responsible and accountable for cybersecurity risk and fosters a culture that is risk-aware, ethical, and continually improving 
+  - GV.RR-02: Roles, responsibilities, and authorities related to cybersecurity risk management are established, communicated, understood, and enforced 
+  - GV.RR-03: Adequate resources are allocated commensurate with the cybersecurity risk strategy, roles, responsibilities, and policies 
+  - GV.RR-04: Cybersecurity is included in human resources practices
 
 - **Policy (GV.PO)**: Organizational cybersecurity policy is established, communicated, and enforced 
-  - V.PO-01: Policy for managing cybersecurity risks is established based on organizational context, cybersecurity strategy, and priorities and is communicated and enforced 
-  - V.PO-02: Policy for managing cybersecurity risks is reviewed, updated, communicated, and enforced to reflect changes in requirements, threats, technology, and organizational mission
+  - GV.PO-01: Policy for managing cybersecurity risks is established based on organizational context, cybersecurity strategy, and priorities and is communicated and enforced 
+  - GV.PO-02: Policy for managing cybersecurity risks is reviewed, updated, communicated, and enforced to reflect changes in requirements, threats, technology, and organizational mission
 
 - **Oversight (GV.OV)**: Results of organization-wide cybersecurity risk management activities and performance are used to inform, improve, and adjust the risk management strategy 
-  - V.OV-01: Cybersecurity risk management strategy outcomes are reviewed to inform and adjust strategy and direction 
-  - V.OV-02: The cybersecurity risk management strategy is reviewed and adjusted to ensure coverage of organizational requirements and risks 
-  - V.OV-03: Organizational cybersecurity risk management performance is evaluated and reviewed for adjustments needed 
+  - GV.OV-01: Cybersecurity risk management strategy outcomes are reviewed to inform and adjust strategy and direction 
+  - GV.OV-02: The cybersecurity risk management strategy is reviewed and adjusted to ensure coverage of organizational requirements and risks 
+  - GV.OV-03: Organizational cybersecurity risk management performance is evaluated and reviewed for adjustments needed 
 
 - **Cybersecurity Supply Chain Risk Management (GV.SC)**: Cyber supply chain risk management processes are identified, established, managed, monitored, and improved by organizational stakeholders 
-  - V.SC-01: A cybersecurity supply chain risk management program, strategy, objectives, policies, and processes are established and agreed to by organizational stakeholders 
-  - V.SC-02: Cybersecurity roles and responsibilities for suppliers, customers, and partners are established, communicated, and coordinated internally and externally 
-  - V.SC-03: Cybersecurity supply chain risk management is integrated into cybersecurity and enterprise risk management, risk assessment, and improvement processes 
-  - V.SC-04: Suppliers are known and prioritized by criticality 
-  - V.SC-05: Requirements to address cybersecurity risks in supply chains are established, prioritized, and integrated into contracts and other types of agreements with suppliers and other relevant third parties 
-  - V.SC-06: Planning and due diligence are performed to reduce risks before entering into formal supplier or other third-party relationships 
-  - V.SC-07: The risks posed by a supplier, their products and services, and other third parties are understood, recorded, prioritized, assessed, responded to, and monitored over the course of the relationship 
-  - V.SC-08: Relevant suppliers and other third parties are included in incident planning, response, and recovery activities 
-  - V.SC-09: Supply chain security practices are integrated into cybersecurity and enterprise risk management programs, and their performance is monitored throughout the technology product and service life cycle 
+  - GV.SC-01: A cybersecurity supply chain risk management program, strategy, objectives, policies, and processes are established and agreed to by organizational stakeholders 
+  - GV.SC-02: Cybersecurity roles and responsibilities for suppliers, customers, and partners are established, communicated, and coordinated internally and externally 
+  - GV.SC-03: Cybersecurity supply chain risk management is integrated into cybersecurity and enterprise risk management, risk assessment, and improvement processes 
+  - GV.SC-04: Suppliers are known and prioritized by criticality 
+  - GV.SC-05: Requirements to address cybersecurity risks in supply chains are established, prioritized, and integrated into contracts and other types of agreements with suppliers and other relevant third parties 
+  - GV.SC-06: Planning and due diligence are performed to reduce risks before entering into formal supplier or other third-party relationships 
+  - GV.SC-07: The risks posed by a supplier, their products and services, and other third parties are understood, recorded, prioritized, assessed, responded to, and monitored over the course of the relationship 
+  - GV.SC-08: Relevant suppliers and other third parties are included in incident planning, response, and recovery activities 
+  - GV.SC-09: Supply chain security practices are integrated into cybersecurity and enterprise risk management programs, and their performance is monitored throughout the technology product and service life cycle 
   - V.SC-10: Cybersecurity supply chain risk management plans include provisions for activities that occur after the conclusion of a partnership or service agreement 
 
 ### IDENTIFY (ID): The organization’s current cybersecurity risks are understood 
@@ -129,35 +129,35 @@ The CSF Core, Informative References, and Implementation Examples are available 
 
 ### RESPOND (RS): Actions regarding a detected cybersecurity incident are taken 
 - **Incident Management (RS.MA)**: Responses to detected cybersecurity incidents are managed 
-  - S.MA-01: The incident response plan is executed in coordination with relevant third parties once an incident is declared  
-  - S.MA-02: Incident reports are triaged and validated 
-  - S.MA-03: Incidents are categorized and prioritized 
-  - S.MA-04: Incidents are escalated or elevated as needed 
-  - S.MA-05: The criteria for initiating incident recovery are applied 
+  - RS.MA-01: The incident response plan is executed in coordination with relevant third parties once an incident is declared  
+  - RS.MA-02: Incident reports are triaged and validated 
+  - RS.MA-03: Incidents are categorized and prioritized 
+  - RS.MA-04: Incidents are escalated or elevated as needed 
+  - RS.MA-05: The criteria for initiating incident recovery are applied 
 
 - **Incident Analysis (RS.AN)**: Investigations are conducted to ensure effective response and support forensics and recovery activities 
-  - S.AN-03: Analysis is performed to establish what has taken place during an incident and the root cause of the incident 
-  - S.AN-06: Actions performed during an investigation are recorded, and the records’ integrity and provenance are preserved 
-  - S.AN-07: Incident data and metadata are collected, and their integrity and provenance are preserved 
-  - S.AN-08: An incident’s magnitude is estimated and validated 
+  - RS.AN-03: Analysis is performed to establish what has taken place during an incident and the root cause of the incident 
+  - RS.AN-06: Actions performed during an investigation are recorded, and the records’ integrity and provenance are preserved 
+  - RS.AN-07: Incident data and metadata are collected, and their integrity and provenance are preserved 
+  - RS.AN-08: An incident’s magnitude is estimated and validated 
 
 - **Incident Response Reporting and Communication (RS.CO)**: Response activities are coordinated with internal and external stakeholders as required by laws, regulations, or policies 
-  - S.CO-02: Internal and external stakeholders are notified of incidents 
-  - S.CO-03: Information is shared with designated internal and external stakeholders 
+  - RS.CO-02: Internal and external stakeholders are notified of incidents 
+  - RS.CO-03: Information is shared with designated internal and external stakeholders 
 
 - **Incident Mitigation (RS.MI)**: Activities are performed to prevent expansion of an event and mitigate its effects 
-  - S.MI-01: Incidents are contained 
-  - S.MI-02: Incidents are eradicated
+  - RS.MI-01: Incidents are contained 
+  - RS.MI-02: Incidents are eradicated
 
 ### RECOVER (RC): Assets and operations affected by a cybersecurity incident are restored 
 - **Incident Recovery Plan Execution (RC.RP)**: Restoration activities are performed to ensure operational availability of systems and services affected by cybersecurity incidents 
-  - C.RP-01: The recovery portion of the incident response plan is executed once initiated from the incident response process
-  - C.RP-02: Recovery actions are selected, scoped, prioritized, and performed 
-  - C.RP-03: The integrity of backups and other restoration assets is verified before using them for restoration 
-  - C.RP-04: Critical mission functions and cybersecurity risk management are considered to establish post-incident operational norms 
-  - C.RP-05: The integrity of restored assets is verified, systems and services are restored, and normal operating status is confirmed 
-  - C.RP-06: The end of incident recovery is declared based on criteria, and incident related documentation is completed 
+  - RC.RP-01: The recovery portion of the incident response plan is executed once initiated from the incident response process
+  - RC.RP-02: Recovery actions are selected, scoped, prioritized, and performed 
+  - RC.RP-03: The integrity of backups and other restoration assets is verified before using them for restoration 
+  - RC.RP-04: Critical mission functions and cybersecurity risk management are considered to establish post-incident operational norms 
+  - RC.RP-05: The integrity of restored assets is verified, systems and services are restored, and normal operating status is confirmed 
+  - RC.RP-06: The end of incident recovery is declared based on criteria, and incident related documentation is completed 
 
 - **Incident Recovery Communication (RC.CO)**: Restoration activities are coordinated with internal and external parties 
-  - C.CO-03: Recovery activities and progress in restoring operational capabilities are communicated to designated internal and external stakeholders 
-  - C.CO-04: Public updates on incident recovery are shared using approved methods and messaging
+  - RC.CO-03: Recovery activities and progress in restoring operational capabilities are communicated to designated internal and external stakeholders 
+  - RC.CO-04: Public updates on incident recovery are shared using approved methods and messaging
