@@ -24,7 +24,7 @@ CSF コア、参考資料、実装例については、CSF 2.0 ウェブサイ�
   - GV.OC-02: 内部および外部の利害関係者が理解され、サイバーセキュリティリスク管理に関する彼らのニーズと要求が理解され、考慮されている。  
   - GV.OC-03: サイバーセキュリティに関する法的、規制、契約上の要件（プライバシーと市民の自由に関する義務を含む）が理解され、管理されている。
   - GV.OC-04: 外部利害関係者が組織に依存または期待する重要な目標、能力、およびサービスが理解され、共有されている。
-- GV.OC-05: 組織が依存する成果、能力、およびサービスが理解され、共有されている。
+  - GV.OC-05: 組織が依存する成果、能力、およびサービスが理解され、共有されている。
 
 - **Risk Management Strategy (GV.RM)**: The organization’s priorities, constraints, risk tolerance and appetite statements, and assumptions are established, communicated, and used to support operational risk decisions
   - GV.RM-01: Risk management objectives are established and agreed to by organizational stakeholders
@@ -218,7 +218,7 @@ CSF コア、参考資料、実装例については、CSF 2.0 ウェブサイ�
   - IR-03: Mechanisms are implemented to achieve resilience requirements in normal and adverse situations 
   - IR-04: Adequate resource capacity to ensure availability is maintained
 
-**テクノロジーインフラストラクチャのレジリエンス (PR.IR)**: セキュリティアーキテクチャは、資産の機密性、完全性、可用性、および組織のレジリエンスを保護するために、組織のリスク戦略に従って管理される。
+- **テクノロジーインフラストラクチャのレジリエンス (PR.IR)**: セキュリティアーキテクチャは、資産の機密性、完全性、可用性、および組織のレジリエンスを保護するために、組織のリスク戦略に従って管理される。
   - IR-01: ネットワークおよび環境は、不正な論理的アクセスおよび使用から保護されている 
   - IR-02: 組織のテクノロジー資産は、環境上の脅威から保護されている 
   - IR-03: 通常時および異常時におけるレジリエンス要件を満たす仕組みが実装されている 
@@ -252,12 +252,12 @@ CSF コア、参考資料、実装例については、CSF 2.0 ウェブサイ�
   - AE-08: Incidents are declared when adverse events meet the defined incident criteria
 
 - **有害事象の分析（DE.AE）**:異常、IoC（侵害の指標）、その他の潜在的なリスク事象を分析し、それらの特性を明らかにして、サイバーセキュリティインシデントの検出につなげる。
-- AE-02：潜在的なリスク事象を分析し、それに関連する活動の理解を深める。
-- AE-03：複数の情報源から得られた情報を相関させる。
-- AE-04：リスク事象の影響範囲と想定される影響度を把握する。
-- AE-06：リスク事象に関する情報を、認可された担当者およびツールに提供する。
-- AE-07：サイバー脅威インテリジェンスやその他の状況を分析に統合する。
-- AE-08：リスク事象が定義されたインシデント基準を満たした場合には、インシデントとして正式に宣言する。
+  - AE-02：潜在的なリスク事象を分析し、それに関連する活動の理解を深める。
+  - AE-03：複数の情報源から得られた情報を相関させる。
+  - AE-04：リスク事象の影響範囲と想定される影響度を把握する。
+  - AE-06：リスク事象に関する情報を、認可された担当者およびツールに提供する。
+  - AE-07：サイバー脅威インテリジェンスやその他の状況を分析に統合する。
+  - AE-08：リスク事象が定義されたインシデント基準を満たした場合には、インシデントとして正式に宣言する。
 
 
 ### RESPOND (RS): Actions regarding a detected cybersecurity incident are taken 
