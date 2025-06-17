@@ -173,14 +173,27 @@ CSF コア、参考資料、実装例については、CSF 2.0 ウェブサイ�
 
 ※5 ユーザーの認証状態や属性（氏名、役割、所属など）を他のシステムに伝える信頼可能な情報単位
 
+
 - **Awareness and Training (PR.AT)**: The organization’s personnel are provided with cybersecurity awareness and training so that they can perform their cybersecurity-related tasks 
-  - AT-01: Personnel are provided wits and training so that they possess the knowledge and skills to perform general tasks with cybersecurity risks in mind o PR.AT-02: Individuals in specialized roles are provided with awareness and training so that they possess the knowledge and skills to perform relevant tasks with cybersecurity risks in mind 
+  - AT-01: Personnel are provided wits and training so that they possess the knowledge and skills to perform general tasks with cybersecurity risks in mind 
+  - AT-02: Individuals in specialized roles are provided with awareness and training so that they possess the knowledge and skills to perform relevant tasks with cybersecurity risks in mind
+ 
+- **意識向上とトレーニング（PR.AT）**：組織の従業員は、サイバーセキュリティに関する意識向上とトレーニングを受け、サイバーセキュリティに関連する業務を遂行できるようにする。
+  - AT-01: 従業員は、サイバーセキュリティリスクを考慮した一般的な業務遂行に必要な知識とスキルを習得するための意識向上とトレーニングを受けている。 
+  - AT-02: 専門的な役割を担う従業員は、サイバーセキュリティリスクを考慮した関連業務を遂行に必要な知識とスキルを習得するための意識向上とトレーニングを受けている。
 
 - **Data Security (PR.DS)**: Data are managed consistent with the organization’s risk strategy to protect the confidentiality, integrity, and availability of information 
   - DS-01: The confidentiality, integrity, and availability of data-at-rest are protected 
   - DS-02: The confidentiality, integrity, and availability of data-in-transit are protected 
   - DS-10: The confidentiality, integrity, and availability of data-in-use are protected 
   - DS-11: Backups of data are created, protected, maintained, and tested 
+
+**データセキュリティ (PR.DS)**：データは、情報の機密性、完全性、および可用性を保護するために、組織のリスク戦略に従って管理される。
+  - DS-01: 保存中のデータの機密性、完全性、可用性が保護されている 
+  - DS-02: 転送中のデータの機密性、完全性、可用性が保護されている 
+  - DS-10: 使用中のデータの機密性、完全性、可用性が保護されている 
+  - DS-11: データのバックアップが作成、保護、維持、およびテストされている
+
 
 - **Platform Security (PR.PS)**: The hardware, software (e.g., firmware, operating systems, applications), and services of physical and virtual platforms are managed consistent with the organization’s risk strategy to protect their confidentiality, integrity, and availability 
   - PS-01: Configuration management practices are established and applied 
@@ -190,11 +203,27 @@ CSF コア、参考資料、実装例については、CSF 2.0 ウェブサイ�
   - PS-05: Installation and execution of unauthorized software are prevented 
   - PS-06: Secure software development practices are integrated, and their performance is monitored throughout the software development life cycle 
 
+**プラットフォームセキュリティ (PR.PS)**：物理および仮想プラットフォームのハードウェア、ソフトウェア（ファームウェア、オペレーティングシステム、アプリケーションなど）、およびサービスは、その機密性、完全性、および可用性を保護するために、組織のリスク戦略に従って管理される。 
+  - PS-01：構成管理の実践が確立され、適用されている。 
+  - PS-02：ソフトウェアは、リスクに応じて維持、交換、および削除される。
+  - PS-03: ハードウェアは、リスクに応じて維持、交換、および削除される。 
+  - PS-04: ログ記録が生成され、継続的な監視のために利用可能にされている。 
+  - PS-05: 許可されていないソフトウェアのインストールおよび実行が防止されている。 
+  - PS-06: ソフトウェア開発ライフサイクルにセキュリティ確保の実践が組み込まれ、それらの実施状況はライフサイクル全体を通じて継続的に監視される。
+
+
 - **Technology Infrastructure Resilience (PR.IR)**: Security architectures are managed with the organization’s risk strategy to protect asset confidentiality, integrity, and availability, and organizational resilience 
   - IR-01: Networks and environments are protected from unauthorized logical access and usage 
   - IR-02: The organization’s technology assets are protected from environmental threats 
   - IR-03: Mechanisms are implemented to achieve resilience requirements in normal and adverse situations 
   - IR-04: Adequate resource capacity to ensure availability is maintained
+
+**テクノロジーインフラストラクチャのレジリエンス (PR.IR)**: セキュリティアーキテクチャは、資産の機密性、完全性、可用性、および組織のレジリエンスを保護するために、組織のリスク戦略に従って管理される。
+  - IR-01: ネットワークおよび環境は、不正な論理的アクセスおよび使用から保護されている 
+  - IR-02: 組織のテクノロジー資産は、環境上の脅威から保護されている 
+  - IR-03: 通常時および異常時におけるレジリエンス要件を満たす仕組みが実装されている 
+  - IR-04: 可用性を確保する十分なリソース容量が維持されている
+
 
 ### DETECT (DE): Possible cybersecurity attacks and compromises are found and analyzed 
 - **Continuous Monitoring (DE.CM)**: Assets are monitored to find anomalies, indicators of compromise, and other potentially adverse events 
@@ -204,6 +233,16 @@ CSF コア、参考資料、実装例については、CSF 2.0 ウェブサイ�
   - CM-06: External service provider activities and services are monitored to find potentially adverse events 
   - CM-09: Computing hardware and software, runtime environments, and their data are monitored to find potentially adverse events 
 
+
+### 検出（DE）：サイバーセキュリティ攻撃や侵害の可能性を発見し、分析する
+- ** 継続的モニタリング（DE.CM）**：資産を継続的にモニタリングし、異常、IoC、その他の潜在的なリスク事象を検出する
+  - CM-01：ネットワークおよびネットワークサービスをモニタリングして、潜在的なリスク事象を検出する
+  - CM-02：物理的環境をモニタリングして、潜在的なリスク事象を検出する
+  - CM-03：人員の活動および技術の利用状況をモニタリングして、潜在的なリスク事象を検出する
+  - CM-06：外部サービスプロバイダーの活動および提供サービスをモニタリングして、潜在的なリスク事象を検出する
+  - CM-09：コンピューティングハードウェア、ソフトウェア、実行環境、およびそれらに関連するデータをモニタリングして、潜在的なリスク事象を検出する
+
+
 - **Adverse Event Analysis (DE.AE)**: Anomalies, indicators of compromise, and other potentially adverse events are analyzed to characterize the events and detect cybersecurity incidents 
   - AE-02: Potentially adverse events are analyzed to better understand associated activities 
   - AE-03: Information is correlated from multiple sources 
@@ -211,6 +250,15 @@ CSF コア、参考資料、実装例については、CSF 2.0 ウェブサイ�
   - AE-06: Information on adverse events is provided to authorized staff and tools 
   - AE-07: Cyber threat intelligence and other contextual information are integrated into the analysis 
   - AE-08: Incidents are declared when adverse events meet the defined incident criteria
+
+- **有害事象の分析（DE.AE）**:異常、IoC（侵害の指標）、その他の潜在的なリスク事象を分析し、それらの特性を明らかにして、サイバーセキュリティインシデントの検出につなげる。
+- AE-02：潜在的なリスク事象を分析し、それに関連する活動の理解を深める。
+- AE-03：複数の情報源から得られた情報を相関させる。
+- AE-04：リスク事象の影響範囲と想定される影響度を把握する。
+- AE-06：リスク事象に関する情報を、認可された担当者およびツールに提供する。
+- AE-07：サイバー脅威インテリジェンスやその他の状況を分析に統合する。
+- AE-08：リスク事象が定義されたインシデント基準を満たした場合には、インシデントとして正式に宣言する。
+
 
 ### RESPOND (RS): Actions regarding a detected cybersecurity incident are taken 
 - **Incident Management (RS.MA)**: Responses to detected cybersecurity incidents are managed 
@@ -220,19 +268,45 @@ CSF コア、参考資料、実装例については、CSF 2.0 ウェブサイ�
   - RS.MA-04: Incidents are escalated or elevated as needed 
   - RS.MA-05: The criteria for initiating incident recovery are applied 
 
+### 対応（RS）：検出されたサイバーセキュリティインシデントに対して、必要な対応措置を講じる。
+
+- インシデント管理（RS.MA）：検出されたサイバーセキュリティインシデントへの対応を組織的に管理する。
+  - RS.MA-01：インシデントが宣言された際には、関係する第三者と連携してインシデント対応計画を実行する。
+  - RS.MA-02：インシデント報告を分類・選別し、内容を検証する。
+  - RS.MA-03：インシデントを分類し、優先順位を付ける。
+  - RS.MA-04：インシデントを、必要に応じてエスカレーションまたは上位対応に引き上げる。
+  - RS.MA-05：インシデント復旧の開始に必要な基準を適用する。
+
+
 - **Incident Analysis (RS.AN)**: Investigations are conducted to ensure effective response and support forensics and recovery activities 
   - RS.AN-03: Analysis is performed to establish what has taken place during an incident and the root cause of the incident 
   - RS.AN-06: Actions performed during an investigation are recorded, and the records’ integrity and provenance are preserved 
   - RS.AN-07: Incident data and metadata are collected, and their integrity and provenance are preserved 
   - RS.AN-08: An incident’s magnitude is estimated and validated 
 
+- **インシデント分析 (RS.AN)**：インシデントに関する調査を通じて、フォレンジックおよび復旧活動を支援する。
+  - RS.AN-03：インシデントの発生状況と根本原因を特定するための分析を実施する。 
+  - RS.AN-06：調査中に実施された措置を記録し、その記録の完全性および出所を保持する。
+  - RS.AN-07: インシデントのデータおよびメタデータを収集し、その完全性および出所を保持する。 
+  - RS.AN-08: インシデントの規模を推定し、検証する。
+
+
 - **Incident Response Reporting and Communication (RS.CO)**: Response activities are coordinated with internal and external stakeholders as required by laws, regulations, or policies 
   - RS.CO-02: Internal and external stakeholders are notified of incidents 
-  - RS.CO-03: Information is shared with designated internal and external stakeholders 
+  - RS.CO-03: Information is shared with designated internal and external stakeholders  　
+
+- **インシデント対応報告およびコミュニケーション (RS.CO)**：法律、規制、またはポリシーの要求に応じて、組織内外の利害関係者と対応活動を調整する。 
+  - RS.CO-02：組織内外の利害関係者にインシデントを通知する。 
+  - RS.CO-03：指定された組織内外の利害関係者と情報を共有する。
 
 - **Incident Mitigation (RS.MI)**: Activities are performed to prevent expansion of an event and mitigate its effects 
   - RS.MI-01: Incidents are contained 
   - RS.MI-02: Incidents are eradicated
+
+- **インシデントの軽減（RS.MI）**：イベントの拡大を防ぎ、その影響を抑えるための活動を実施する。
+  - RS.MI-01：インシデントを封じ込める。
+  - RS.MI-02：インシデントを排除する。
+
 
 ### RECOVER (RC): Assets and operations affected by a cybersecurity incident are restored 
 - **Incident Recovery Plan Execution (RC.RP)**: Restoration activities are performed to ensure operational availability of systems and services affected by cybersecurity incidents 
@@ -243,6 +317,21 @@ CSF コア、参考資料、実装例については、CSF 2.0 ウェブサイ�
   - RC.RP-05: The integrity of restored assets is verified, systems and services are restored, and normal operating status is confirmed 
   - RC.RP-06: The end of incident recovery is declared based on criteria, and incident related documentation is completed 
 
+### 復旧（RC）：サイバーセキュリティインシデントの影響を受けた資産および業務の運用を復元する。
+
+- **インシデント復旧計画の実行（RC.RP）**：サイバーセキュリティインシデントによって影響を受けたシステムおよびサービスの運用可用性を確保するために、復旧活動を実施する。
+  - RC.RP-01：インシデント対応プロセスにおいて開始指示が出され次第、対応計画の復旧フェーズを実行する。
+  - RC.RP-02：復旧措置を選定し、適用範囲を定め、優先順位を付けたうえで実施する。
+  - RC.RP-03：復旧に使用する前に、バックアップおよびその他の復旧資産の整合性を検証する。
+  - RC.RP-04：重要なミッション機能およびサイバーセキュリティリスク管理の観点を考慮して、インシデント後の運用の基準を策定する。
+  - RC.RP-05：復元された資産の整合性を検証し、システムおよびサービスを復旧し、通常の運用状態であることを確認する。
+  - RC.RP-06：あらかじめ定めた基準に基づいて復旧の終了を宣言し、インシデント関連文書を作成・完結する。
+
 - **Incident Recovery Communication (RC.CO)**: Restoration activities are coordinated with internal and external parties 
   - RC.CO-03: Recovery activities and progress in restoring operational capabilities are communicated to designated internal and external stakeholders 
   - RC.CO-04: Public updates on incident recovery are shared using approved methods and messaging
+
+- **インシデント復旧に関するコミュニケーション（RC.CO）**：
+復旧活動は、組織内外の関係者と連携して進められる。
+  - RC.CO-03：復旧活動および業務機能の回復状況について、指定された社内外の関係者に対して情報を共有する。
+  - RC.CO-04：インシデント復旧に関する最新情報を、承認された手段と内容に基づいて対外的に発信する。
