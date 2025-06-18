@@ -188,7 +188,7 @@ CSF コア、参考資料、実装例については、CSF 2.0 ウェブサイ�
   - DS-10: The confidentiality, integrity, and availability of data-in-use are protected 
   - DS-11: Backups of data are created, protected, maintained, and tested 
 
-**データセキュリティ (PR.DS)**：データは、情報の機密性、完全性、および可用性を保護するために、組織のリスク戦略に従って管理される。
+- **データセキュリティ (PR.DS)**：データは、情報の機密性、完全性、および可用性を保護するために、組織のリスク戦略に従って管理される。
   - DS-01: 保存中のデータの機密性、完全性、可用性が保護されている 
   - DS-02: 転送中のデータの機密性、完全性、可用性が保護されている 
   - DS-10: 使用中のデータの機密性、完全性、可用性が保護されている 
@@ -203,7 +203,7 @@ CSF コア、参考資料、実装例については、CSF 2.0 ウェブサイ�
   - PS-05: Installation and execution of unauthorized software are prevented 
   - PS-06: Secure software development practices are integrated, and their performance is monitored throughout the software development life cycle 
 
-**プラットフォームセキュリティ (PR.PS)**：物理および仮想プラットフォームのハードウェア、ソフトウェア（ファームウェア、オペレーティングシステム、アプリケーションなど）、およびサービスは、その機密性、完全性、および可用性を保護するために、組織のリスク戦略に従って管理される。 
+- **プラットフォームセキュリティ (PR.PS)**：物理および仮想プラットフォームのハードウェア、ソフトウェア（ファームウェア、オペレーティングシステム、アプリケーションなど）、およびサービスは、その機密性、完全性、および可用性を保護するために、組織のリスク戦略に従って管理される。 
   - PS-01：構成管理の実践が確立され、適用されている。 
   - PS-02：ソフトウェアは、リスクに応じて維持、交換、および削除される。
   - PS-03: ハードウェアは、リスクに応じて維持、交換、および削除される。 
