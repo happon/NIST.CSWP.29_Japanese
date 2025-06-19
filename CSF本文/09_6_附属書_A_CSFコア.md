@@ -1,10 +1,10 @@
 ## Appendix A. CSF Core
-This appendix describes the Functions, Categories, and Subcategories of the CSF Core. Table 1 lists the CSF 2.0 Core Function and Category names and unique alphabetic identifiers. Each Function name in the table is linked to its portion of the appendix. The order of Functions, Categories, and Subcategories of the Core is not alphabetical; it is intended to resonate most with those charged with operationalizing risk management within an organization.
+This appendix describes the Functions, Categories, and Subcategories of the CSF Core. Table 1 lists the CSF 2.0 Core Function and Category names and unique alphabetic identifiers. Each Function name in the table is linked to its portion of the appendix. The order of Functions, Categories, and Subcategories of the Core is not alphabetical; it is intended to resonate most with those charged with operationalizing risk management within an organization.  
 この付録では、CSF コアの機能、カテゴリ、およびサブカテゴリについて説明する。表 1 には、CSF 2.0 コアの機能およびカテゴリ名、およびユニークなアルファベット識別子が記載されている。表内の各機能名は、付録内の該当する部分にリンクされている。コアの機能、カテゴリ、およびサブカテゴリの順序はアルファベット順ではない。これは組織内でリスク管理を実践する責任者が理解しやすい順序となっている。  
 
 ![CSF2.0コア機能及びカテゴリーの名称と識別子](Appendix_A_CSF2.0コア機能及びカテゴリーの名称と識別子.png)
 
-The CSF Core, Informative References, and Implementation Examples are available on the CSF 2.0 website and through the CSF 2.0 Reference Tool, which allows users to explore them and export them in human- and machine-readable formats. The CSF 2.0 Core is also available in a legacy format similar to that of CSF 1.1.
+The CSF Core, Informative References, and Implementation Examples are available on the CSF 2.0 website and through the CSF 2.0 Reference Tool, which allows users to explore them and export them in human- and machine-readable formats. The CSF 2.0 Core is also available in a legacy format similar to that of CSF 1.1.  
 
 CSF コア、参考資料、実装例については、CSF 2.0 ウェブサイトおよび CSF 2.0 リファレンスツールから参照できる。このツールを使用すると、人間および機械が読み取り可能な形式でエクスポートできる。CSF 2.0 コアは、CSF 1.1 と同様のレガシー形式でも利用できる。  
 
@@ -49,6 +49,7 @@ CSF コア、参考資料、実装例については、CSF 2.0 ウェブサイ�
   - GV.RR-02: Roles, responsibilities, and authorities related to cybersecurity risk management are established, communicated, understood, and enforced 
   - GV.RR-03: Adequate resources are allocated commensurate with the cybersecurity risk strategy, roles, responsibilities, and policies 
   - GV.RR-04: Cybersecurity is included in human resources practices
+    
 - **役割、責任、および権限 (GV.RR)**: 説明責任、実績評価、および継続的な改善を促進するためのサイバーセキュリティの役割、責任、および権限が確立され、共有されている。  
   - GV.RR-01: 組織の管理職は、サイバーセキュリティリスクについて責任と説明責任を負い、リスクを認識し、倫理的で、継続的に改善する文化を醸成されている。
   - GV.RR-02: サイバーセキュリティリスク管理に関連する役割、責任、権限が確立され、共有され、理解され、実施されている。 
@@ -173,7 +174,6 @@ CSF コア、参考資料、実装例については、CSF 2.0 ウェブサイ�
 
 ※5 ユーザーの認証状態や属性（氏名、役割、所属など）を他のシステムに伝える信頼可能な情報単位
 
-
 - **Awareness and Training (PR.AT)**: The organization’s personnel are provided with cybersecurity awareness and training so that they can perform their cybersecurity-related tasks 
   - AT-01: Personnel are provided wits and training so that they possess the knowledge and skills to perform general tasks with cybersecurity risks in mind 
   - AT-02: Individuals in specialized roles are provided with awareness and training so that they possess the knowledge and skills to perform relevant tasks with cybersecurity risks in mind
@@ -194,7 +194,6 @@ CSF コア、参考資料、実装例については、CSF 2.0 ウェブサイ�
   - DS-10: 使用中のデータの機密性、完全性、可用性が保護されている 
   - DS-11: データのバックアップが作成、保護、維持、およびテストされている
 
-
 - **Platform Security (PR.PS)**: The hardware, software (e.g., firmware, operating systems, applications), and services of physical and virtual platforms are managed consistent with the organization’s risk strategy to protect their confidentiality, integrity, and availability 
   - PS-01: Configuration management practices are established and applied 
   - PS-02: Software is maintained, replaced, and removed commensurate with risk 
@@ -211,7 +210,6 @@ CSF コア、参考資料、実装例については、CSF 2.0 ウェブサイ�
   - PS-05: 許可されていないソフトウェアのインストールおよび実行が防止されている。 
   - PS-06: ソフトウェア開発ライフサイクルにセキュリティ確保の実践が組み込まれ、それらの実施状況はライフサイクル全体を通じて継続的に監視される。
 
-
 - **Technology Infrastructure Resilience (PR.IR)**: Security architectures are managed with the organization’s risk strategy to protect asset confidentiality, integrity, and availability, and organizational resilience 
   - IR-01: Networks and environments are protected from unauthorized logical access and usage 
   - IR-02: The organization’s technology assets are protected from environmental threats 
@@ -224,7 +222,6 @@ CSF コア、参考資料、実装例については、CSF 2.0 ウェブサイ�
   - IR-03: 通常時および異常時におけるレジリエンス要件を満たす仕組みが実装されている 
   - IR-04: 可用性を確保する十分なリソース容量が維持されている
 
-
 ### DETECT (DE): Possible cybersecurity attacks and compromises are found and analyzed 
 - **Continuous Monitoring (DE.CM)**: Assets are monitored to find anomalies, indicators of compromise, and other potentially adverse events 
   - CM-01: Networks and network services are monitored to find potentially adverse events 
@@ -233,9 +230,8 @@ CSF コア、参考資料、実装例については、CSF 2.0 ウェブサイ�
   - CM-06: External service provider activities and services are monitored to find potentially adverse events 
   - CM-09: Computing hardware and software, runtime environments, and their data are monitored to find potentially adverse events 
 
-
 ### 検出（DE）：サイバーセキュリティ攻撃や侵害の可能性を発見し、分析する
-- ** 継続的モニタリング（DE.CM）**：資産を継続的にモニタリングし、異常、IoC、その他の潜在的なリスク事象を検出する
+- **継続的モニタリング（DE.CM）**：資産を継続的にモニタリングし、異常、IoC、その他の潜在的なリスク事象を検出する
   - CM-01：ネットワークおよびネットワークサービスをモニタリングして、潜在的なリスク事象を検出する
   - CM-02：物理的環境をモニタリングして、潜在的なリスク事象を検出する
   - CM-03：人員の活動および技術の利用状況をモニタリングして、潜在的なリスク事象を検出する
@@ -270,7 +266,7 @@ CSF コア、参考資料、実装例については、CSF 2.0 ウェブサイ�
 
 ### 対応（RS）：検出されたサイバーセキュリティインシデントに対して、必要な対応措置を講じる。
 
-- インシデント管理（RS.MA）：検出されたサイバーセキュリティインシデントへの対応を組織的に管理する。
+- **インシデント管理（RS.MA）**：検出されたサイバーセキュリティインシデントへの対応を組織的に管理する。
   - RS.MA-01：インシデントが宣言された際には、関係する第三者と連携してインシデント対応計画を実行する。
   - RS.MA-02：インシデント報告を分類・選別し、内容を検証する。
   - RS.MA-03：インシデントを分類し、優先順位を付ける。
@@ -331,7 +327,6 @@ CSF コア、参考資料、実装例については、CSF 2.0 ウェブサイ�
   - RC.CO-03: Recovery activities and progress in restoring operational capabilities are communicated to designated internal and external stakeholders 
   - RC.CO-04: Public updates on incident recovery are shared using approved methods and messaging
 
-- **インシデント復旧に関するコミュニケーション（RC.CO）**：
-復旧活動は、組織内外の関係者と連携して進められる。
+- **インシデント復旧に関するコミュニケーション（RC.CO）**：復旧活動は、組織内外の関係者と連携して進められる。  
   - RC.CO-03：復旧活動および業務機能の回復状況について、指定された社内外の関係者に対して情報を共有する。
   - RC.CO-04：インシデント復旧に関する最新情報を、承認された手段と内容に基づいて対外的に発信する。
